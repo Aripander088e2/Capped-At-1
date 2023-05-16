@@ -102,19 +102,19 @@ MAIN.double = {
 
     milestone: [
         {
-            r: 3,
+            r: 1,
             desc: `<b>Compacted Box</b> will no longer reset its time.`,
         },{
-            r: 4,
+            r: 1,
             desc: `Increase <b>Charge Core</b>'s row by <b>1</b>.`,
         },{
-            r: 5,
+            r: 1,
             desc: `<b>Charge Core</b> decreases <b>75%</b> slower.`,
         },{
             r: 6,
             desc: `Automate <b>Compacted Box</b>. <b>Double Compacted Box</b> will no longer reset <b>Compacted Box</b>'s time.`,
         },{
-            r: 7,
+            r: 1,
             desc: `Increase <b>Charge Core</b>'s column by <b>1</b>. <b>Charge Core</b>'s inactive time is another <b>80%</b> slower.`,
         },{
             r: 9,
@@ -123,10 +123,10 @@ MAIN.double = {
             r: 10,
             desc: `<b>Core Formula</b>'s effect softcap starts <b>^5</b> later.`,
         },{
-            r: 11,
+            r: 1,
             desc: `Increase <b>Charge Core</b>'s row by <b>1</b>. Add <b>1</b> to <b>Upgrade Charger</b>.`,
         },{
-            r: 12,
+            r: 2,
             desc: `Increase <b>Charge Core</b>'s column by <b>1</b>. Add <b>1</b> to <b>Upgrade Charger</b>.`,
         },{
             r: 13,
