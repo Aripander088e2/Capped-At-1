@@ -7,7 +7,7 @@ const RES_UPGS = [
         effect() {
             let x = hasResearchUpg(14) ? Decimal.pow(player.reset+2,player.reset**2.5) : Decimal.pow(player.reset+2,player.reset/2+1)
 
-            if (hasResearchUpg(4)) x = x.pow(1.5)
+            if (hasResearchUpg(4)) x = x.pow(8.5)
 
             if (chargedResUpg(0)) x = x.pow(player.double/2+1)
 
@@ -27,7 +27,7 @@ const RES_UPGS = [
 
             x = x.pow(2.5)
 
-            if (hasResearchUpg(4)) x = x.pow(2)
+            if (hasResearchUpg(4)) x = x.pow(16)
 
             if (player.triple >= 6) x = x.log10().add(10).log10().pow(2)
 
@@ -44,7 +44,7 @@ const RES_UPGS = [
 
             let x = (c ? tmp.totalResearch.pow(2) : tmp.unspentResearch).add(1).log10().mul(2.5)
 
-            if (hasResearchUpg(5)) x = x.mul(researchUpgEff(5))
+            if (hasResearchUpg(5)) x = x.mul(researchUpgEff(16))
 
             if (hasResearchUpg(14)) x = x.pow(1.2)
 
